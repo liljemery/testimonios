@@ -24,7 +24,7 @@ function App() {
       nombre='Michael'
       pais='Mexico'
       cargo='Desarrollador'
-      empresa='The street'
+      empresa='Pinterest'
       testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
       />
     </div>
