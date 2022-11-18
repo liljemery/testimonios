@@ -7,7 +7,7 @@ function App() {
       imagen='maria'
       nombre='Maria'
       pais='Republica Dominicana'
-      cargo='Desarroladora'
+      cargo='Desarrolladora'
       empresa='Google'
       testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
       />
@@ -23,7 +23,7 @@ function App() {
       imagen='michael'
       nombre='Michael'
       pais='Mexico'
-      cargo='Limpia Botas'
+      cargo='Desarrollador'
       empresa='The street'
       testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
       />

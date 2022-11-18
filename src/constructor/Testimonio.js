@@ -9,7 +9,7 @@ function Testimonio(props) {
           alt='Foto'/>
         <div className='contenedor-texto-testimonio card-body'>
           <p className='nombre-testimonio card-title'>
-            <strong>{props.nombre}</strong> en {props.pais}
+            <strong>{props.nombre}</strong> de {props.pais}
           </p>
           <p className='cargo-testimonio card-title'>
             {props.cargo} en <strong>{props.empresa}</strong>
