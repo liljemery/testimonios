@@ -8,7 +8,7 @@ function App() {
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-              <img className='d-block w-100' src="https://static.vecteezy.com/system/resources/previews/001/138/321/non_2x/couple-having-their-house-built-photo.jpg" alt="First slide"/>
+              <img className='d-block w-100' src="https://static.vecteezy.com/system/resources/previews/001/138/321/non_2x/couple-having-their-house-built-photo.jpg" alt='hello there'/>
             </div>
         </div>
       </div>
