@@ -1,32 +1,34 @@
 import './App.css';
-import Vestido from './constructor/vestidos';
+
+
+
 function App() {
   return (
-    <div className='d-flex mx-auto mt-5'>
-      <Vestido
-      imagen='maria'
-      nombre='Maria'
-      pais='Republica Dominicana'
-      cargo='Desarrolladora'
-      empresa='Google'
-      testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
-      />
-      <Vestido
-      imagen='antonio'
-      nombre='Antonio'
-      pais='El Salvador'
-      cargo='Designer'
-      empresa='YouTube'
-      testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
-      />
-      <Vestido
-      imagen='michael'
-      nombre='Michael'
-      pais='Mexico'
-      cargo='Desarrollador'
-      empresa='Pinterest'
-      testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
-      />
+    <div className='mx-auto mt-2'>
+      <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img className='d-block w-100' src="https://static.vecteezy.com/system/resources/previews/001/138/321/non_2x/couple-having-their-house-built-photo.jpg" alt="First slide"/>
+            </div>
+        </div>
+      </div>
+      <div id='cardcontainer' className='d-flex mt-3'>
+          <div class="card mx-2">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+          <div class="card mx-2">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+          <div class="card mx-2">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+      </div>
     </div>
 );
 }
