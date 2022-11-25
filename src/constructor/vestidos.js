@@ -1,6 +1,6 @@
 import React from "react";
 
-function Testimonio(props) {
+function Vestido(props) {
     return (
       <div className='contenedor-testimonio card mx-3'>
         <img 
@@ -19,4 +19,4 @@ function Testimonio(props) {
       </div>
     );
   }
-  export default Testimonio;
+  export default Vestido;

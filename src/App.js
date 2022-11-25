@@ -1,9 +1,9 @@
 import './App.css';
-import Testimonio from './constructor/Testimonio';
+import Vestido from './constructor/vestidos';
 function App() {
   return (
     <div className='d-flex mx-auto mt-5'>
-      <Testimonio
+      <Vestido
       imagen='maria'
       nombre='Maria'
       pais='Republica Dominicana'
@@ -11,7 +11,7 @@ function App() {
       empresa='Google'
       testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
       />
-      <Testimonio
+      <Vestido
       imagen='antonio'
       nombre='Antonio'
       pais='El Salvador'
@@ -19,7 +19,7 @@ function App() {
       empresa='YouTube'
       testimonio='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maiores non unde veniam sapiente distinctio laboriosam consequuntur perspiciatis aut dicta.'
       />
-      <Testimonio
+      <Vestido
       imagen='michael'
       nombre='Michael'
       pais='Mexico'
